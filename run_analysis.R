@@ -1,4 +1,4 @@
-
+library(dplyr)
 #Run this function to generate the tidy dataset.
 #make sure to set the working directory to the base folder with the data.
 read_and_tidy_up_data <- function() {
@@ -7,6 +7,14 @@ read_and_tidy_up_data <- function() {
         rbind(test_data,train_data)
 }
 
+#Creates the second dataset,
+aggregate_tidy_data <- function(tidy_data) {
+        tbl <- tbl_df(tidy_data)
+        result <- data %>%
+                group_by(Subject,Activity) %>%
+                summarize_all(funs(mean))
+        result
+}
 
 
 #Helper functions
