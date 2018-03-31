@@ -1,8 +1,8 @@
 ## Peer Assignment for 'Getting and Cleaning Data'
 
-This repo is the pear assignment for this [Course](https://www.coursera.org/learn/data-cleaning/).
+This repo is the peer assignment for this [Course](https://www.coursera.org/learn/data-cleaning/).
 
-It contains an R file to clean and merge and cleans data that can be found [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+It contains an R file to clean and merge data that can be found [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
 For a detailed description of the result, look at the [CodeBook](CodeBook.md).
 
