@@ -4,7 +4,7 @@ This repo is the pear assignment for this [Course](https://www.coursera.org/lear
 
 It contains an R file to clean and merge and cleans data that can be found [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
-For a detailed description of the result, look at the [[CodeBook]].
+For a detailed description of the result, look at the [CodeBook](CodeBook.md).
 
 ###Usage
 
